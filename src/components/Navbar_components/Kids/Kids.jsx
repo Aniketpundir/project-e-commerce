@@ -8,7 +8,7 @@ const Kids = () => {
     <>
       <>
         <div className="electric-product">
-          <h1>Kids Wear's (Top class)</h1>
+          <h1>Kids Wear's</h1>
         </div>
 
         <div className="cards">
