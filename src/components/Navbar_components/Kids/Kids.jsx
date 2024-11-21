@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../Card/card";
+import Card from "../Card/Card";
 import ElectricKettle from "../Electronics/Image1";
 import { NextBotton } from "../NextBotton";
 
