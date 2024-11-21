@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.electric-product {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 30px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+.kettel {
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin: 40px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 14px;
+  width: 95%;
+}
+
+.card-container {
+  padding: 20px;
+  width: 100%;
+  margin: 20px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img img {
+  height: 200px;
+}
+
+.card-text {
+  padding-top: 3rem;
+}
+
+.card-text span {
+  color: rgba(128, 128, 128, 0.489);
+  font-size: 12px;
+}
+
+.card-text h2 {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.card-text .quantity {
+  color: rgba(128, 128, 128, 0.657);
+  font-size: 12px;
+}
+
+.priceSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.priceSection h1 {
+  margin-top: -3px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.priceSection .cros {
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.priceSection h3 {
+  color: green;
+  font-weight: 600;
+}
+
+.card-text p {
+  font-size: 12px;
+}
+
+.card-container:hover {
+  box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.428);
+}
+
+.nextPage {
+  margin: 5%;
+  text-align: center;
+}
+
+.nextPage ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nextPage ul li {
+  border: 1px solid #fea8289f;
+  margin: 4px;
+  padding: 12px;
+  width: 10%;
+  background-color: #fea8289f;
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+.nextPage ul li {
+  font-weight: 600;
+}
+
+.nextPage ul li:hover {
+  background-color: rgb(252, 219, 167);
+}
+
+.cart-s {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-s a {
+  padding: 6px 15px;
+  background-color: #fea8289f;
+  color: #fff;
+  display: none;
+}
+.card-container:hover .cart-s a {
+  display: block;
+}
